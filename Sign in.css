@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    animation: appearanimation 3s;
+}
+
+.form {
+    text-decoration: none;
+    display: inline-block;
+    color: aliceblue;
+    font-size: 24px;
+    border: 10px ;
+    padding: 14px 70px;
+    border-radius: 50px;
+    margin-top: 20px;
+    background-image: linear-gradient(45deg , rgb(194, 88, 17) , transparent);
+    justify-content: center;
+    box-shadow: 10px , 10px , rgb(245, 244, 243);
+    margin-top: 130px;
+    height: 390px;
+    animation: appearanimation 1s;
+}
+@keyframes appearanimation{
+    0%{
+        font-size: 0px;
+    }
+    100%{
+        font-size: 20px;
+    }
+}
+
+td{
+    font-weight:bold;
+}
+
+#register{
+    color: white;
+    animation: coloranimation 10s infinite;
+}
+@keyframes coloranimation{
+    0%{color:orange;}
+    25%{color:white;}
+    50%{color: orange;}
+    75%{color: white;}
+    100%{color:orange;}
+}
+body{
+    background-image: url(ggg.jpg);
+    background-size: cover;
+}
+
+.email {
+    border: 10px;
+    border-radius : 10px;
+    background-color: transparent;
+    width: 300px;
+    height:30px;
+    box-shadow: 3px 3px 5px rgb(192, 218, 218);
+    border-style: hidden;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: aliceblue;
+}
+
+.password1 {
+    border: 10px;
+    border-radius : 10px;
+    background-color: transparent;
+    width: 300px;
+    height:30px;
+    box-shadow: 3px 3px 5px rgb(183, 212, 212);
+    border-style: hidden;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    
+}
+
+.password2 {
+    border: 10px;
+    border-radius : 10px;
+    background-color: transparent;
+    width: 300px;
+    height:30px;
+    box-shadow: 3px 3px 5px rgb(222, 243, 243);
+    border-style: hidden;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: aliceblue;
+}
+
+.create {
+    text-decoration: none;
+    font-weight: 16px;
+    color:white;
+    background-image: linear-gradient(45deg , rgb(194, 88, 17) , transparent);
+    padding: 12px;
+    border:10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    transition-duration: 0.3s;
+    box-shadow: 5px 1px 20px rgb(5, 5, 5);
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+}
+
+.create:hover, .create:focus, .create:active {
+    box-shadow: 20 , 20px 20px rgba(0, 0 , 0, 0.5);
+    -webkit-transform:scale(1.1);
+    transform:scale(1.1);
+    background-color: rgb(224, 148, 35);
+    color: rgb(12, 12, 12);
+}
+
+.profile {
+    border: 50px;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+}
+
+::placeholder{
+    color: rgb(235, 225, 225);
+}
